@@ -119,11 +119,6 @@ _G.packer_plugins = {
     path = "/Users/tanaysoni/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
-  ["onedarkpro.nvim"] = {
-    loaded = true,
-    path = "/Users/tanaysoni/.local/share/nvim/site/pack/packer/start/onedarkpro.nvim",
-    url = "https://github.com/olimorris/onedarkpro.nvim"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/tanaysoni/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -158,6 +153,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/tanaysoni/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
     url = "https://github.com/vim-airline/vim-airline-themes"
+  },
+  ["vscode.nvim"] = {
+    loaded = true,
+    path = "/Users/tanaysoni/.local/share/nvim/site/pack/packer/start/vscode.nvim",
+    url = "https://github.com/Mofiqul/vscode.nvim"
   }
 }
 

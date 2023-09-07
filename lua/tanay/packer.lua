@@ -14,7 +14,7 @@ return require('packer').startup(function(use)
 	}
 
 	-- Packer
-	use 'olimorris/onedarkpro.nvim'
+	use 'Mofiqul/vscode.nvim'
 	use ('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 	use ('nvim-treesitter/playground')
 	use ('https://github.com/ThePrimeagen/harpoon')
