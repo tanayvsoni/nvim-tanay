@@ -6,16 +6,16 @@ vim.keymap.set('n', '<leader>ps', function()
 end)
 vim.keymap.set('n', '<leader>vh', builtin.help_tags, {})
 
-require("telescope").setup({
-	pickers = {
-		find_files = {
-			initial_mode = "normal"
-		},
-		grep_string = {
-			initial_mode = "normal"
-		},
-		git_files= {
-			initial_mode = "normal"
-		},
-	}
-})
+--require("telescope").setup({
+--	pickers = {
+--		find_files = {
+--			initial_mode = "normal"
+--		},
+--		grep_string = {
+--			initial_mode = "normal"
+--		},
+--		git_files= {
+--			initial_mode = "normal"
+--		},
+--	}
+--})

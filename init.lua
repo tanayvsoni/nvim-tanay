@@ -12,3 +12,12 @@ vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.g.loaded_matchparen = true
 vim.g.loaded_matchbracket = true
+
+-- Enable Airline
+vim.g.airline_enabled = 1
+
+-- Set the Airline theme to "onedark"
+vim.g.airline_theme = 'onedark'
+    
+
+
