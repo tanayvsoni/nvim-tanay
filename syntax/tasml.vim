@@ -11,10 +11,6 @@ highlight link talComment Comment
 syntax region talBlockComment start="\v/\*" end="\v\*/"
 highlight link talBlockComment Comment
 
-" Define the syntax for words after a period (preprocessor statements)
-syntax match talPreprocessor "\.\zs\w\+"
-highlight link talPreprocessor StorageClass
-
 " Make # highlighted
 syntax match talHash /#/
 highlight link talHash Constant
@@ -26,6 +22,10 @@ highlight link talVarAssignment Identifier
 " Remaining Labels and Vars
 syntax match talIdentifier /\v<\w+>/
 highlight link talIdentifier Identifier
+
+" Define the syntax for words after a period (preprocessor statements)
+syntax match talPreprocessor "\.\zs\w\+"
+highlight link talPreprocessor StorageClass
 
 " Define the syntax for strings (double quotes)
 syntax region talString start=+"+ skip=+\\\\\|\\"+ end=+"+
