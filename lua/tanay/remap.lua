@@ -2,7 +2,7 @@
 vim.g.mapleader = " "
 
 -- Opens terminal
-vim.api.nvim_set_keymap('n', '<Leader>t', ':botright 20sp term://fish<CR>:startinsert<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>t', ':ToggleTerm<CR>', { noremap = true, silent = true })
 
 -- Remaps terminal
 vim.api.nvim_set_keymap('t', '<Leader>nn', '<C-\\><C-n>', { noremap = true, silent = true })
